@@ -1,6 +1,6 @@
 {
     "name": "@ekliptor/multihttpdispatcher",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "HttpDispatcher for multi part post",
     "private": false,
     "main": "multihttpdispatcher.js",
