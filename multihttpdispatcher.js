@@ -33,6 +33,9 @@ HttpDispatcher.prototype.onGet = function(url, cb) {
 HttpDispatcher.prototype.onPost = function(url, cb) {
 	this.on('post', url, cb);
 }
+HttpDispatcher.prototype.onDelete = function(url, cb) {
+	this.on('delete', url, cb);
+}
 HttpDispatcher.prototype.onError = function(cb) {
 	this.errorListener = cb;
 }
